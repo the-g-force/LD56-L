@@ -212,6 +212,14 @@
 			"text": "This one seems the most reasonable, so you immediatly go about making yourself a boat. unfortunatly you underestimate how deep the mud is and get sucked in..."
 		},
 		{
+			"definition": "1728161686-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "5"
+		},
+		{
 			"change_timeline": "timeline-1728139010.json",
 			"event_id": "dialogic_020"
 		},
@@ -384,6 +392,14 @@
 			"text": "You accidently meandre into a mud hole and the alligators eat you."
 		},
 		{
+			"definition": "1728161686-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "5"
+		},
+		{
 			"change_timeline": "timeline-1728139010.json",
 			"event_id": "dialogic_020"
 		},
@@ -525,6 +541,14 @@
 			"z_index": 0
 		},
 		{
+			"definition": "1728161686-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "5"
+		},
+		{
 			"change_timeline": "timeline-1728139010.json",
 			"event_id": "dialogic_020"
 		},
@@ -581,6 +605,14 @@
 			},
 			"type": 1,
 			"z_index": 0
+		},
+		{
+			"definition": "1728161686-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "5"
 		},
 		{
 			"change_timeline": "timeline-1728139010.json",
