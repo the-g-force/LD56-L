@@ -22,7 +22,7 @@
 		},
 		{
 			"choice": "The bog.",
-			"condition": "!=",
+			"condition": "==",
 			"definition": "1728161686-648",
 			"event_id": "dialogic_011",
 			"value": "0"
@@ -65,7 +65,7 @@
 			"event_id": "dialogic_020"
 		},
 		{
-			"choice": "Back home. (This means you no longer be able to search for kids.)",
+			"choice": "Back home. (This means you will no longer be able to search for kids.)",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
