@@ -22,10 +22,10 @@
 		},
 		{
 			"choice": "The bog.",
-			"condition": "",
-			"definition": "",
+			"condition": "!=",
+			"definition": "1728161686-648",
 			"event_id": "dialogic_011",
-			"value": ""
+			"value": "0"
 		},
 		{
 			"change_timeline": "timeline-1728160609.json",
