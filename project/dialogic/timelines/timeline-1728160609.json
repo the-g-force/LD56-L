@@ -1,0 +1,646 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What do you want to do in the bog?"
+		},
+		{
+			"choice": "Send out your eel to study your suroundings.",
+			"condition": "",
+			"definition": "1728148838-648",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Your eel swims out into the bog.\nAfter a few minutes your eel returns and reports."
+		},
+		{
+			"character": "character-1728138016.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There are a lot of Will o' whisps, I suspect if there is a kid in the bog it will have been lured in by one of them."
+		},
+		{
+			"definition": "1728161686-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"change_timeline": "timeline-1728160609.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Send out your dragon to look for kids.",
+			"condition": "",
+			"definition": "1728151934-918",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "character-1728154983.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "One of the kids has been captured by a will o' whisp."
+		},
+		{
+			"change_timeline": "timeline-1728160609.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Check your book.",
+			"condition": "==",
+			"definition": "1728130094-648",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What do you want to learn about the bog from your book?"
+		},
+		{
+			"choice": "Will o' whisps",
+			"condition": "",
+			"definition": "1728161686-648",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Will o' whisps are annoying little buggers that drive you insane and try to trick you into drowning. the best way to fight them is by having your own source of light.\" -The ultimate book of creature knowledge"
+		},
+		{
+			"change_timeline": "timeline-1728160609.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "What creatures are in the bog?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Will o' whisps are the prominent bog creature. They are not big fans of light.\" -The ultimate book of creature knowledge"
+		},
+		{
+			"choice": "What is the best way to travel in a bog?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "\"If you can you should always try to take a road everywhere when in a bog\" -The ultimate book of creature knowledge"
+		},
+		{
+			"choice": "Send your dragon to look for a road.",
+			"condition": "",
+			"definition": "1728151934-918",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Your dragon finds a road not far from you and you travel to it."
+		},
+		{
+			"definition": "1728163307-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"change_timeline": "timeline-1728160609.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "contiue.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1728160609.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Try to remember what you had been taught about the bog.",
+			"condition": "!=",
+			"definition": "1728130094-648",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "You vaguely remember something about the bog from your lessons..."
+		},
+		{
+			"choice": "\"Take a boat everywhere you go in the bog, otherwise the massive water beetles will undoutably consume you.\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This one seems the most reasonable, so you immediatly go about making yourself a boat. unfortunatly you underestimate how deep the mud is and get sucked in..."
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "\"There are lots of aliens in the bog.\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, this must be it! There is the light from a UFO right now!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "You(dead)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You follow the UFO until it leads you into a patch of thick mud that sucks you down under. Your last thought is realizing the light was from a will' o wisp"
+		},
+		{
+			"choice": "\"The bog is full of will o' whisps and you must always be careful. the best way to avoid being tricked by them is to follow a road.\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes this must be right! The more you think about it the more you remember, the best way to fight a wil o' whisp is using a light!"
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Wait... do I have anything that can make light?"
+		},
+		{
+			"choice": "Yes! My flamethrower!",
+			"condition": "",
+			"definition": "1728093209-250",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"anchor_id": "anchor-1728163147",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Yes! My dragons fire!",
+			"condition": "",
+			"definition": "1728151934-918",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"anchor_id": "anchor-1728163147",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "No...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1728140546.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Light a torch.",
+			"condition": "",
+			"definition": "1728151934-918",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"anchor_id": "anchor-1728163147",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Light a torch.",
+			"condition": "",
+			"definition": "1728093209-250",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"anchor_id": "anchor-1728163147",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Light a torch.",
+			"condition": "",
+			"definition": "1728161686-648",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"anchor_id": "anchor-1728163147",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Start wandering.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "You(dead)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You accidently meandre into a mud hole and the alligators eat you."
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1728163147",
+			"index": 0,
+			"name": "torch"
+		},
+		{
+			"definition": "1728161686-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Now that you have a torch what will you do?"
+		},
+		{
+			"choice": "Follow the road",
+			"condition": "",
+			"definition": "1728163307-787",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It doesn't take you very long to find the missing child with the help of the roads, and your dragon making sure you are headed in the right direction."
+		},
+		{
+			"definition": "1728142128-970",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "Wander around until you find a kid",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728164978.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "You are just about to give up when you find yourself lost! You must find your way out by discovering which one of these directons will get you from the blue dot to the red dot? (R=right L=left D=down U=up L3=left three spaces)"
+		},
+		{
+			"choice": "R3,D7,L2,U4,L2,D1,R6,U4,R3",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You drown in mud."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728164978.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "L3,R5,D5,L5,U4,R3,U1,L1,D4,L3",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "You(dead)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You drown in mud."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728164978.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "R3,D6,L1,D2,R2,D2,R5,U3,R1,D4",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You make it out to find yourself face to face with one of the missing childs!"
+		},
+		{
+			"definition": "1728142128-970",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728164978.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"change_timeline": "timeline-1728140546.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728160609.json",
+		"name": "Bog"
+	}
+}

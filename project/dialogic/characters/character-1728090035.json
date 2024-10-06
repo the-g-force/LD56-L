@@ -1,0 +1,29 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "You",
+	"display_name_bool": false,
+	"id": "character-1728090035.json",
+	"mirror_portraits": false,
+	"name": "You",
+	"nickname": "You",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -300,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://You (2).png"
+		},
+		{
+			"name": "You(Flamethrower)",
+			"path": "res://You(Flamethrower).png"
+		},
+		{
+			"name": "You(dead)",
+			"path": "res://You(dead).png"
+		}
+	],
+	"scale": 3500,
+	"theme": ""
+}

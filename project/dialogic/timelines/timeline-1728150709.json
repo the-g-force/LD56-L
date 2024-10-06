@@ -1,0 +1,495 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Where in the mountains should you search first?"
+		},
+		{
+			"choice": "Dragon nesting grounds?",
+			"condition": "",
+			"definition": "1728151934-918",
+			"event_id": "dialogic_011",
+			"value": "-1"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728154983.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You approach the dragon nesting grounds, and see a whole lot of baby dragons."
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1728152210",
+			"index": 0,
+			"name": "Que"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What will you do?"
+		},
+		{
+			"choice": "Send your snake out to scout out the area.",
+			"condition": ">=",
+			"definition": "1728141521-366",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You send your snake out to find out if there are any kids in the nesting ground."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It returns and reports."
+		},
+		{
+			"character": "character-1728139533.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There isss a kid, but she isss being guarded by a dragonet, and isss sssorrounded by more dragonetsss."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You seem to recall that dragonets can easily be lured out by meat or calmed by fire."
+		},
+		{
+			"definition": "1728151934-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"anchor_id": "anchor-1728152210",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Check your ultimate book of creature knowledge.",
+			"condition": ">=",
+			"definition": "1728130094-648",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"To get dragons to calm down you should light a fire near them. To make them go away put some fresh meat within smelling distance but out of sight.\"-The ultimate book of creature knowledge"
+		},
+		{
+			"definition": "1728151934-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"anchor_id": "anchor-1728152210",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Light a fire to calm the dragonets so you can sneak past.",
+			"condition": "",
+			"definition": "1728151934-918",
+			"event_id": "dialogic_011",
+			"value": "0"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "How are you going to light the fire?"
+		},
+		{
+			"choice": "Fantasy flamethrower.",
+			"condition": ">=",
+			"definition": "1728093209-250",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You blowtorch everything and the dragonets love it."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "In the chaos you manage to sneak in and grab the kid!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": true,
+			"change_position": true,
+			"change_z_index": false,
+			"character": "character-1728154983.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": true,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"definition": "1728142128-970",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "One of the dragonets sees you create the fire and begins to follow you."
+		},
+		{
+			"character": "character-1728154983.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Rowr."
+		},
+		{
+			"definition": "1728151934-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"change_timeline": "timeline-1728140546.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Flint and steel",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You light a small fire that quickly spreads to all the dry brush and the dragonets love it."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "In the chaos you manage to sneak in and grab the kid!"
+		},
+		{
+			"definition": "1728142128-970",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728154983.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"definition": "1728151934-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "-3"
+		},
+		{
+			"change_timeline": "timeline-1728140546.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Attempt to sneak past the dragonets.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "You(dead)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You make it three feet before the dragonets devour you."
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Go hunting.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You go and catch a bird."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What do you do with it?"
+		},
+		{
+			"choice": "Cut it open and leave it to lure.the dragonets out of their nests.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It works! All the dragonets leave there nests so you can find any kids there might be!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There is a kid! you are just leaving when a dragon aproaches behind you, it would appear that it saw you catch the bird and wants to be freinds! "
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": true,
+			"change_position": true,
+			"change_z_index": false,
+			"character": "character-1728154983.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": true,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1728154983.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Roar."
+		},
+		{
+			"definition": "1728151934-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1728142128-970",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"change_timeline": "timeline-1728140546.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "eat it.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "You(dead)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You get food poisoning and die."
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Ditch of Doom",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "You(dead)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "All manners of undiscribable monsters in inumerable numbers pour up from the Ditch of Doom and devaur you."
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728150709.json",
+		"name": "Mountain dragons"
+	}
+}

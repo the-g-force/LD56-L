@@ -1,0 +1,575 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What do you want to do at the River of the Bundling Whippersnapper?"
+		},
+		{
+			"choice": "\"Go fishing for fish so you can stay safe from the Black Eels as you cross the water.\" -the ultimate book of creature knowledge",
+			"condition": ">=",
+			"definition": "1728130094-648",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1728137109",
+			"index": 0,
+			"name": "Fishing"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "You fish for a couple of minutes until you catch a fish! What do you do with it?"
+		},
+		{
+			"choice": "Walk through the river while holding the dead fish.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728138016.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As you walk through the river you notice that there are a lot of Black Eels that would have eaten you if you had not been smelling like the fish. as you reach an island in the middle of the river you notice a child on it!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Unfortunatly there is a Black Eel in the way, and it has seen through your disguise!"
+		},
+		{
+			"choice": "Feed it the fish.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It happly eats the fish and starts following you around."
+		},
+		{
+			"character": "character-1728138016.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Merp!"
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It likes me"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": true,
+			"change_position": true,
+			"change_z_index": false,
+			"character": "character-1728138016.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": true,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"definition": "1728142128-970",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1728148838-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"change_timeline": "timeline-1728140546.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Hit it with the fish.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You whack the fish over the head of the eel repeatedly until it swims away."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You grab the kid and walk back to the shore"
+		},
+		{
+			"definition": "1728142128-970",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1728148838-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "-1"
+		},
+		{
+			"change_timeline": "timeline-1728140546.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "eat it.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You eat the raw fish and die of food poisoning"
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Cook it with your flamethrower",
+			"condition": ">=",
+			"definition": "1728093209-250",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You blowtorch the fish and then eat it. unfortunatly the outside charred and the inside is raw and you die of food poisoning."
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Go fishing",
+			"condition": "",
+			"definition": "1728131809-787",
+			"event_id": "dialogic_011",
+			"value": "0"
+		},
+		{
+			"anchor_id": "anchor-1728137109",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Blowtorch the water, just in case.",
+			"condition": ">=",
+			"definition": "1728093209-250",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728138016.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "You(dead)",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You blowtorch the water and a bunch Black Eels come out and gorily consume you and reduced you to a bloody mass of bones."
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Cross the river to see what is on the other side.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728138016.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "You(dead)",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The river is full of Black Eels that gorily consume you."
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Look around.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728138016.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You notice a lot of Black Eels swimming around in the water, and on a little island in the middle of the river is a kid!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "You seem to remember something about Black Eels from one of your books..."
+		},
+		{
+			"choice": "\"They love to be bathed in flames, it is very comforting and they will let you pass.\" -The manual of things",
+			"condition": ">=",
+			"definition": "1728093209-250",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "You(dead)",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That wasn't it. you blowtorch the eels but they are two wet and do not burn easily, you are gorily consumed and reduced to a bloody mass of bones."
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "\"Black Eels are easily tamed with fish, if you wave the fish in the air the Black Eels will grow confused so you can cross the water.\" -A travellers guide to waterways",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The more you think about it the more you are sure this is the right option. You decide to go fishing."
+		},
+		{
+			"anchor_id": "anchor-1728137109",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "\"Sing. Black Eels love to be sung to, and they will let you pass.\" -A creature tamers guide",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "You(dead)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It turns out that you must have misremembered, because the eals devour your flesh as soon as you step in the water."
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "\"The only way to get through Black Eel infested waters is to throw rocks at them until they die.\" -A barbarians guide to the unknown",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You imediatly start throwing rocks into the water"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alas, they begin to come up on land after you have killed a few of them."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What do you do now?"
+		},
+		{
+			"choice": "Run",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1728091233.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Throw bigger rocks",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "You(dead)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You imediatly run over to a boulder and spend your last minutes trying to pick it up."
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728091854.json",
+		"name": "River of the Bundling Whippersnapper"
+	}
+}

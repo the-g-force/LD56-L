@@ -1,0 +1,87 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Where to next?"
+		},
+		{
+			"choice": "The mountains.",
+			"condition": "==",
+			"definition": "1728151934-918",
+			"event_id": "dialogic_011",
+			"value": "-1"
+		},
+		{
+			"change_timeline": "timeline-1728150709.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "The bog.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1728160609.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "The cave.",
+			"condition": "==",
+			"definition": "1728141521-366",
+			"event_id": "dialogic_011",
+			"value": "0"
+		},
+		{
+			"change_timeline": "timeline-1728091851.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "The river.",
+			"condition": "==",
+			"definition": "1728148838-648",
+			"event_id": "dialogic_011",
+			"value": "0"
+		},
+		{
+			"change_timeline": "timeline-1728091854.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "The house of the sage.",
+			"condition": "<=",
+			"definition": "1728092984-192",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"change_timeline": "timeline-1728091852.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Back home. (This means you no longer be able to search for kids.)",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1728174159.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728140546.json",
+		"name": "Where to next?"
+	}
+}

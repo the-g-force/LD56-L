@@ -1,0 +1,84 @@
+{
+	"events": [
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Now, where should I look?"
+		},
+		{
+			"choice": "The cave of snakes.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, this seems like a pretty great place to start looking for kids captured by creatures. Actually, it looks like a better place to look for snakes, but, y'know, I'm not looking for snakes."
+		},
+		{
+			"change_timeline": "timeline-1728091851.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "The house of the wise old sage that knows some of the answers to most of the questions.",
+			"condition": "",
+			"definition": "1728092984-192",
+			"event_id": "dialogic_011",
+			"value": "0"
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I think I need more info before I go blundering about like the lesser creature-tamer I am."
+		},
+		{
+			"change_timeline": "timeline-1728091852.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "The river of the bundling whippersnapper. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What the heck is a bundling whippersnapper anyway?"
+		},
+		{
+			"character": "character-1728091757.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You are, sonny boy!!"
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uuuh, 'kay"
+		},
+		{
+			"change_timeline": "timeline-1728091854.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728091233.json",
+		"name": "The Adventure Begins!!"
+	}
+}

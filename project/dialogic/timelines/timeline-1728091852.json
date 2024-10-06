@@ -1,0 +1,302 @@
+{
+	"events": [
+		{
+			"definition": "1728092984-192",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1728091985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What do you want?"
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Uh..."
+		},
+		{
+			"choice": "I want like some kind of fantasy flamethrower. Yeah, yeah that's the ticket.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728091985.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What is the magic word?"
+		},
+		{
+			"choice": "Please?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728091985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Here have a fantasy flamethrower."
+		},
+		{
+			"character": "character-1728091985.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "..."
+		},
+		{
+			"choice": "Thanks.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You now have a fantasy flamethrower."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": true,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "You(Flamethrower)",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"definition": "1728093209-250",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"change_timeline": "timeline-1728140546.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Arson?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728091985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uh, no."
+		},
+		{
+			"change_timeline": "timeline-1728091852.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Arson?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728091985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uh, no."
+		},
+		{
+			"change_timeline": "timeline-1728091852.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "KNOWLEDGE!!!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728091985.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Well than, can you be more specific?"
+		},
+		{
+			"choice": "I want to know more about the cave of snakes.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "I want to know more about the River of the Bundling Whippersnappers.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728091985.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Ah, yes. The river... If you go to it you will need to be prepared to fight Black Eels! And you will find a child, whose name is Fred."
+		},
+		{
+			"choice": "How do I tame the Black Eels?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728091985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fish. if you wave fish in the air they will get all distracted and stuff so you can go into the river, and if you feed one a fish it will follow you forever."
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh. Good to know, thanks."
+		},
+		{
+			"definition": "1728131809-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"change_timeline": "timeline-1728140546.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "How do I kill the Black Eels?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728091985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Throw rocks at them. But be warned they will always come in packs and they can totally come out of the water to eat you."
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh... That does sound pretty hard."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "I want to learn more about where all the children are.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728091985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "They have been captured by the young creatures of the forest in an attempt to impress there parents. Most of the locations with monsters will have childs. Except the Ditch of Doom."
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alright, thanks."
+		},
+		{
+			"change_timeline": "timeline-1728140546.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "I want to learn more about how to tame creatures.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728091985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay, have the ultimate book of creature knowledge."
+		},
+		{
+			"definition": "1728130094-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"change_timeline": "timeline-1728140546.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728091852.json",
+		"name": "The house of the old sage."
+	}
+}

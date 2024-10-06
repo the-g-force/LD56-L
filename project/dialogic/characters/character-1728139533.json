@@ -1,0 +1,21 @@
+{
+	"color": "#ff1aff00",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1728139533.json",
+	"mirror_portraits": false,
+	"name": "Snake",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -300,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Snake.png"
+		}
+	],
+	"scale": 2300,
+	"theme": ""
+}

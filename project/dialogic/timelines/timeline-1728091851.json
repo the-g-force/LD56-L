@@ -1,0 +1,422 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728139533.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Welp, that sure is a lot of snakes... In a cave..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What do you do?"
+		},
+		{
+			"choice": "Look closer",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "My goodness its Jimmy!"
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "How on earth do I get Jimmy out of this cave full of snakes?"
+		},
+		{
+			"choice": "Have your dragon fly in and carry Jimmy out.",
+			"condition": "",
+			"definition": "1728151934-918",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "character-1728154983.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Rar! (Flap,flap,flap)"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Success! your dragon has brought Jimmy back."
+		},
+		{
+			"definition": "1728142128-970",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"change_timeline": "timeline-1728140546.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Study your surroundings.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You see a bunch of snakes in a cave. Everything seems hopeless until  you remember your flute!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Now what?"
+		},
+		{
+			"choice": "Play your flute to distract the snakes for long enough that you can get through to save Jimmy",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"animation_wait": false,
+			"change_mirror_portrait": true,
+			"change_position": true,
+			"change_z_index": false,
+			"character": "character-1728139533.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": true,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It works! all the snakes pay no attention to you as you go in and grab Jimmy. as you leave one of the snakes follows you!"
+		},
+		{
+			"definition": "1728142128-970",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1728139533.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hiss"
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aww... It likes me!"
+		},
+		{
+			"definition": "1728141521-366",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"change_timeline": "timeline-1728140546.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Hit the snakes with your flute.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728139533.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hisss"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "You(dead)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The snakes eat you."
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Burn them all",
+			"condition": ">=",
+			"definition": "1728093209-250",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You burn them all leaving nothing but the charred remains of snakes and a kid. Your flamethrower has poor aim."
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I think I shall run away and never return.."
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Charge in and grab him.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "You(dead)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You get consumed."
+		},
+		{
+			"character": "character-1728139533.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yum."
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Do battle with the snakes",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Have at thee snakes!"
+		},
+		{
+			"choice": "ARSON!!!!",
+			"condition": ">=",
+			"definition": "1728093209-250",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Foom."
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Woah, that was a lot of fire."
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Aw, beans."
+		},
+		{
+			"choice": "Look more closely at the charred remains of a village child that had been stolen by the snakes.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "REDACTED DUE TO VIOLENCE AND STUFF."
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Run away and never return.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Box the snakes",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "You(dead)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The snakes bite you repeatedly and then consume you."
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728091851.json",
+		"name": "The cave of snakes."
+	}
+}

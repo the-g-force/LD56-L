@@ -1,0 +1,135 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I can't believe all those kids got captured by the creatures of the forest again."
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It's about time that I go into the woods and save all the children of the village, isn't it."
+		},
+		{
+			"character": "character-1728090616.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "I'd say!!!"
+		},
+		{
+			"choice": "Well, off I go.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1728091233.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "First lemme get a coffee.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728090616.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "... Are you kidding me?!"
+		},
+		{
+			"choice": "Uh... Sure, yeah.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Glance longingly at coffee...)"
+		},
+		{
+			"character": "character-1728090616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well you better get going than, right?!"
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah..."
+		},
+		{
+			"change_timeline": "timeline-1728091233.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Nooo...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1728090616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Timeout chair, NOW."
+		},
+		{
+			"character": "character-1728090035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Darn."
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728090058.json",
+		"name": "TinyCreatures"
+	}
+}

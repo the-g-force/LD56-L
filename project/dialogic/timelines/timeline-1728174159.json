@@ -1,0 +1,124 @@
+{
+	"events": [
+		{
+			"character": "character-1728090616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Welcome back!"
+		},
+		{
+			"character": "character-1728090616.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "I trust you brought back lots of kids?"
+		},
+		{
+			"choice": "None!",
+			"condition": "",
+			"definition": "1728142128-970",
+			"event_id": "dialogic_011",
+			"value": "0"
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Uh... One...",
+			"condition": "",
+			"definition": "1728142128-970",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "character-1728090616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fired!!!"
+		},
+		{
+			"change_timeline": "timeline-1728139010.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Half?",
+			"condition": "",
+			"definition": "1728142128-970",
+			"event_id": "dialogic_011",
+			"value": "2"
+		},
+		{
+			"character": "character-1728090616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That's pretty good."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Three days later..."
+		},
+		{
+			"change_timeline": "timeline-1728090058.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Three!",
+			"condition": "",
+			"definition": "1728142128-970",
+			"event_id": "dialogic_011",
+			"value": "3"
+		},
+		{
+			"character": "character-1728090616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Most of them! All right!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Five days later..."
+		},
+		{
+			"change_timeline": "timeline-1728090058.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "All of them!",
+			"condition": "",
+			"definition": "1728142128-970",
+			"event_id": "dialogic_011",
+			"value": "4"
+		},
+		{
+			"character": "character-1728090616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Way to go! Promotions are in order!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "20 days later..."
+		},
+		{
+			"change_timeline": "timeline-1728090058.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728174159.json",
+		"name": "Home"
+	}
+}
